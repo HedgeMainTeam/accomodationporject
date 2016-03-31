@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Accomodation Application</title>
+		<link rel="stylesheet" type="text/css" href = "style.css"/>	
+	</head>
+
+	<body>
+		<div id="container">
+			<main id="center" class="column">
+			<header id="header"><p><h1>ACCOMODATION</h1></p></header>
+				<article>
+					<br/><br/><center><h3>Create a Student Account Using Your Student Number</h3><br/><br/>
+						<form id = "signup" method = "POST"	action = "signup.php"> <!-----Use signup.php here to make a signup file in php------>
+							<input type = "text" name = "number" placeholder = "Student Number" id = "input"/><br/>
+							<input type = "text" name = "stdname" placeholder = "Full Name" id = "input"/><br/>
+							<select id = "input" name = "sex">
+								<option value = "male">Male</option>
+								<option value = "female">Female</option>
+							</select></br>
+							<input type = "password" name = "stdpass" placeholder = "Password" id = "input"/><br/>
+							<input type = "password" name = "stdpass2" placeholder = "Confirm Password" id = "input"/><br/><br/>
+							<input type = "submit" id = "submit" name = "signup" value= "Sign Up"/></center>
+						</form><br/><br/><br/><br/><br/><br/>
+				</article>	
+				
+				<div id="footer-wrapper">
+					<footer id="footer"><center><p>University of Zambia</p></center></footer>
+				</div>							
+			</main>
+
+			<nav id="left" class="column">
+				<center><h4> Welcome </h4>
+					<img src = "images/logo.png" /><br/><br/>
+				</center>
+			</nav>
+
+			<div id="right" class="column">
+				<br/><br/><br/><br/><br/><br/><div id = "images">
+					<img src= "images/first.png"/><br/><br/>
+					<img src= "images/sec.png"/><br/><br/>
+					<img src= "images/third.png"/><br/><br/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

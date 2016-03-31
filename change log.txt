@@ -1,0 +1,7 @@
+Version 1.0
+16/03/2016 - first release
+22/03/2016 - Removed some print statements from Allocation.php that where printing debug data
+30/03/2016 - Added gender dropdown list in sighup.html
+31/03/2016 - Updated Allocation.php to include room letters and consider sex when selecting a room
+31/30/2016 - renamed test.php to login.php and updated places it was referenced
+31/30/2016 - renamed test.html to index.html and updated places it was referenced
